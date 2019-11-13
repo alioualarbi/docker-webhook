@@ -33,23 +33,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/" ui-sref="home()">&#x2693;&#xFE0F; Webhook Tester</a>
+                <a class="navbar-brand" href="/" ui-sref="home()">&#x2693;&#xFE0F; Http request Tester</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <div class="nav navbar-left navbar-form">
-                    <a href="https://github.com/fredsted/webhook.site" target="_blank"
+                    <a href="https://github.com/alioualarbi/Http-webhook" target="_blank"
                        style="margin-top: 7px"
                        class="btn btn-xs btn-link">
                         Github Page</a>
-                    <a href="https://github.com/fredsted/webhook.site#donate" target="_blank"
+                    <a href="https://github.com/alioualarbi/Http-webhook#donate" target="_blank"
                        style="margin-top: 7px"
                        class="btn btn-xs btn-link">
                         Donate</a>
-                    <a href="https://twitter.com/fredsted" target="_blank"
-                       style="margin-top: 7px"
-                       class="btn btn-xs btn-link">
-                        @fredsted</a>
-                </div>
+                    </div>
                 <div class="nav navbar-right navbar-form hidden-sm">&nbsp;
                     <button type="button" class="btn btn-link openModal" data-modal="#editUrlModal"
                             ga-on="click" ga-event-category="Request" ga-event-action="click-newurl">
@@ -129,7 +125,7 @@
                         <span aria-hidden="true">&times;</span></button>
                     <p><strong>Webhook.site</strong>
                         allows you to easily test webhooks and other types of HTTP requests.
-                        <a href="https://simonfredsted.com/1583" target="_blank">What is a webhook?</a></p>
+                    </p>
                     <p>Any requests sent to that URL are logged here instantly
                         &mdash; you don't even have to refresh!</p>
                     <hr>
@@ -149,10 +145,10 @@
                     <p></p>Click <b>New URL</b> to create a new url with the ability to
                         customize status code, response body, etc.</p>
                     <p>
-                        <a class="github-button" href="https://github.com/fredsted/webhook.site"
+                        <a class="github-button" href="https://github.com/alioualarbi/Http-webhook"
                            data-icon="octicon-star" data-show-count="true"
-                           aria-label="Star fredsted/webhook.site on GitHub">Star on GitHub</a>
-                        <a href="https://github.com/fredsted/webhook.site"
+                           aria-label="Star alioualarbi/Http-webhook on GitHub">Star on GitHub</a>
+                        <a href="https://github.com/alioualarbi/Http-webhook"
                     </p>
                 </div>
                 <div ng-show="hasRequests">
